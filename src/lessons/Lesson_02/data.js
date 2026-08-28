@@ -1,3 +1,4 @@
+// Lesson02:
 export const animal = {
   type: "Tiger",
   fullName: "Marti",
@@ -9,6 +10,7 @@ export const animal = {
 };
 
 // this second type for bools(FAlse/Try)
-export const getIsPlanteaterInfo = (isPlanteater) => {
-  return isPlanteater ? "Yes" : "No";
-};
+// export const getIsPlanteaterInfo = (isPlanteater) => {
+//   return isPlanteater ? "Yes" : "No";
+// };
+
