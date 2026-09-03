@@ -28,6 +28,7 @@ function Homework_04() {
             ResetResults={handleReset}
             Like={handleLike}
             Dislike={handleDislike}
+            numbers={count}
             />
         </div>
     );
