@@ -3,22 +3,23 @@ import './Homework_04.css'
 import { useState } from "react";
 function Homework_04() {
  //C деструктуризацией
-  const [count, setCount] = useState(0);
-  console.log(count)
+  const [like, setLike] = useState(0);
+
+  const [dislike, setDislike] = useState(0);
 
   const handleDislike = () => { 
-    setCount((preValue) => {
-        return preValue -1;
-    });};
+    setDislike((preValue) => {
+        return preValue +1;
+    });
+  };
 
   const handleReset = () => {
-    setCount (() => {
-        return 0;
-    });
-  }
+    setLike (0)
+    setDislike(0)
+  };
  
   const handleLike = () => {
-    setCount((preValue) => {
+    setLike((preValue) => {
         return preValue +1;
     });
   };
@@ -28,7 +29,8 @@ function Homework_04() {
             ResetResults={handleReset}
             Like={handleLike}
             Dislike={handleDislike}
-            numbers={count}
+            dislike_count={dislike}
+            like_count={like}
             />
         </div>
     );
