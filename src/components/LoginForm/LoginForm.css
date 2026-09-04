@@ -1,0 +1,38 @@
+.Login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 420px;
+  padding: 48px 40px 40px;
+  margin: 40px auto;
+  background: #ffffff;
+  border: 1px solid #1a1a1a;
+  border-radius: 4px;
+  height: 450;
+  padding: 60px;
+  gap: 35px;
+  opacity: 1;
+}
+
+.Login_form_title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.Login_form_field {
+  width: 300px;
+  height: 23px;
+  opacity: 1;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 250px;
+}
+
+.Login_form_log_in {
+  width: 100%;
+  margin-top: 30px;
+}

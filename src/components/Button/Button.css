@@ -1,0 +1,21 @@
+.button_component {
+  width: 100%;
+  padding: 15px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: -apple-system, 'Segoe UI', Arial, sans-serif;
+  color: #ffffff;
+  background: #2f2be0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.button_component:hover {
+  background: #2622c4;
+}
+ 
+.button_component:active {
+  background: #1e1aa8;
+}
+ 

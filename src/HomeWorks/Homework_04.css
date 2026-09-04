@@ -1,0 +1,6 @@
+.Homework_04_block {
+  display: flex;
+  justify-content: center; /* Центрируем по горизонтали */
+  align-items: center;     /* Центрируем по вертикали */
+  min-height: 100vh;       /* Растягиваем на всю высоту экрана */
+}
