@@ -58,12 +58,26 @@
 
 ////////////////////////////////////////////////////////
 
-import Homework_04 from "./HomeWorks/Homework_04.jsx";
+// import Homework_04 from "./HomeWorks/Homework_04.jsx";
+
+// function App() {
+//   return (
+//     <>
+//     <Homework_04 />
+//     </>
+//   );
+// }
+
+// export default App;
+
+/////////////////////////////////////////////////////////
+
+import Lesson_05 from "./lessons/Lesson_05/Lesson_05.jsx";
 
 function App() {
   return (
     <>
-    <Homework_04 />
+    <Lesson_05 />
     </>
   );
 }
