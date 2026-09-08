@@ -72,14 +72,23 @@
 
 /////////////////////////////////////////////////////////
 
-import Lesson_05 from "./lessons/Lesson_05/Lesson_05.jsx";
+// import Lesson_05 from "./lessons/Lesson_05/Lesson_05.jsx";
+
+// function App() {
+//   return (
+//     <>
+//     <Lesson_05 />
+//     </>
+//   );
+// }
+
+// export default App;
+
+///////////////////////////////////////////////
+
+import Homework_05 from "./HomeWorks/Homework_05.jsx";
 
 function App() {
-  return (
-    <>
-    <Lesson_05 />
-    </>
-  );
+  return <Homework_05 />;
 }
-
 export default App;
