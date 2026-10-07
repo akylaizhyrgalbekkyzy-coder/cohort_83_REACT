@@ -1,40 +1,33 @@
-.HW_page_wrapper {
-    display: flex;
-  flex: 1;
+.card {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 400px;
+  min-height: 300px;
+  max-height: fit-content;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 30px;
+  color: black;
+  background-color: white;
+  gap: 30px;
 }
 
-
-
-.Homers_card {
-  font-size: 20px;
-  font-weight: 800;
-  margin: 0 0 4px;
-  color: #2B2B2B;
-
-}
 .avatar {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  border: 3px solid #2B2B2B;
-  object-fit: cover;
-  background: #fff;
-  margin-bottom: 12px;
-}
-
-.card_title {
-  font-weight: 700;
-  margin-right: 4px;
-
+  align-self: center;
 }
 
 .card_info {
-  text-align: left;
-  font-size: 14px;
-  margin: 8px 0 0;
-  color: #2B2B2B;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
 
+.info_title {
+  font-size: 28px;
+  font-weight: bold;
 }

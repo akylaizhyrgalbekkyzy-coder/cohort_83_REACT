@@ -1,7 +1,0 @@
-/* src/lessons/Lesson_04/Lesson_04.css */
-.Lesson_04_block {
-  display: flex;
-  justify-content: center; /* Центрируем по горизонтали */
-  align-items: center;     /* Центрируем по вертикали */
-  min-height: 100vh;       /* Растягиваем на всю высоту экрана */
-}
